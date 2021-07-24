@@ -1,0 +1,48 @@
+<div class="jumbotron text-left middle" style="background-image: url('../assets/food.jpg');background-repeat: no-repeat;background-size: cover;">
+  <h1 class="first">Food ordering system</h1>
+  <p class="first">fastest delivery near by you</p>
+</div>
+<div class="container ">
+  <ul class="nav justify-content-end ">
+    <li class="nav-item">
+      <button class="nav-link" routerLink="account" onclick="document.getElementById('id01').style.display='block'">sign up</button>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="login" onclick="document.getElementById('id02').style.display='block'">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="order">Order</a>
+    </li>
+  </ul>
+</div>
+
+
+<div>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#" style="font-size: 25px;">Food Factory</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav" style="margin-left:40%;">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="menu">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="restaurant">Restaurant</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="specialoffer">Special Offers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="cart">Cart</a>
+      </li>   
+    </ul>
+  </div>  
+</nav>
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,16 @@
+.first{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: cornsilk;
+    margin-bottom: 10px;
+}
+.middle{
+    margin-bottom:10px;
+}
+.container{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.nav-link{
+    margin-left: 25px;
+    font-size: 23px;
+}
